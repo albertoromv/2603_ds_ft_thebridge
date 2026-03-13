@@ -1,0 +1,21 @@
+# import test1303 as tst
+
+# tst.test('blu', 14)
+
+# print(tuple('3, 5'))
+d_list = []
+d = input('Dame una coordenada(2 números seguidos del 0 al 9):')
+for x in d:
+    d_list.append(int(x))
+
+print(tuple(d_list))
+
+
+
+# x = int('9')
+# y = int('3')
+
+# z = tuple((x, y))
+
+# print(z)
+# print(type(z))
